@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    height: 200px;
+    width: 200px;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "a a b"
+      "a a b"
+      "c d d";
+  }
+  .item1 { 
+    border: 19x solid black;
+    background-color: wheat;
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+    border: 19x solid black;
+    background-color: wheat;
+  }
+  .item3 {
+    grid-area: c;
+    border: 19x solid black;
+    background-color: wheat;
+  }
+  .item4 {
+    grid-area: d;
+    border: 19x solid black;
+    background-color: wheat;
+  }
